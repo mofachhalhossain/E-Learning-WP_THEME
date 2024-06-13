@@ -16,7 +16,7 @@ E-Learning is a modern, responsive WordPress theme designed for educational inst
 ## Installation
 
 1. **Download the Theme:**
-   - Clone the repository: `git clone https://github.com/mofachhalhossain/e-learning-theme.git`
+   - Clone the repository: `git clone https://github.com/mofachhalhossain/E-Learning-WP_THEME`
    - Or download the ZIP file from the repository and extract it.
 
 2. **Upload to WordPress:**
