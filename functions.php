@@ -1,5 +1,12 @@
 <?php
 
+function elearning_enqueue_fontawesome() {
+    wp_enqueue_style( 'fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' );
+}
+add_action( 'wp_enqueue_scripts', 'elearning_enqueue_fontawesome' );
+add_action( 'admin_enqueue_scripts', 'elearning_enqueue_fontawesome' );
+
+
 function eLearning_load_scripts(){
     wp_enqueue_style( 'eLearning_styleSheet', get_stylesheet_uri(), array(), '1.0', 'all');
     wp_enqueue_style( 'eLearning_bootstrap_min', get_template_directory_uri() . '/css/bootstrap.min.css', '1.0');

@@ -179,7 +179,7 @@ hr {
 .navbar-light .navbar-nav .nav-link,
 .navbar-nav > .menu-item a {
   color: var(--dark);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .navbar-light.sticky-top {
@@ -258,10 +258,10 @@ hr {
 }
 
 .page-header {
-  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/carousel-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 350px;
 }
 
 .page-header-inner {
@@ -339,6 +339,30 @@ hr {
 .category a:hover img,
 .course-item:hover img {
   transform: scale(1.1);
+}
+
+/* About Section */
+.about-list ul li {
+  list-style: none;
+}
+.about-list ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  padding: 0;
+}
+.about-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.about-img img {
+  width: 95%;
+  height: 60%;
+}
+.course-categories img {
+  width: 100%;
 }
 
 /*** Team ***/
