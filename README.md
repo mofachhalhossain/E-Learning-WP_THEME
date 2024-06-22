@@ -1,6 +1,6 @@
 # E-Learning WordPress Theme
 
-![E-Learning Theme Screenshot](img/screenshot.png)
+![E-Learning Theme Screenshot]([img/screenshot.png](https://mofachhalhossain.com/wp-content/uploads/2024/06/elearning-html-template.jpg))
 
 E-Learning is a modern, responsive WordPress theme designed for educational institutions, online courses, and e-learning platforms. This theme offers customizable layouts, intuitive navigation, and seamless integration with popular Learning Management System (LMS) plugins, providing an engaging and effective learning experience for all users.
 
